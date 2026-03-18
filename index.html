@@ -219,9 +219,7 @@
     .footer a { color: var(--text-muted); }
     .footer a:hover { color: var(--text); }
 
-    /* ── iframe hide ── */
-    .in-iframe .nav { display: none; }
-    .in-iframe .shell { padding-top: 32px; }
+
 
     @media (max-width: 580px) {
       .shell { padding: 28px 16px 64px; }
@@ -240,7 +238,8 @@
       Ghost Intel
     </a>
     <div class="nav-links">
-      <a href="https://sinkrest.github.io/romans-lab" class="nav-link">⚗️ Roman's Lab</a>
+
+      <a href="https://sinkrest.github.io/romans-lab" class="nav-link">Roman's Lab</a>
       <a href="https://github.com/sinkrest/ghost-intel" target="_blank" class="nav-link">GitHub</a>
       <a href="https://romanmartins.com" target="_blank" class="nav-link">romanmartins.com</a>
     </div>
@@ -476,7 +475,6 @@
     }
   }
 
-  if (window.self !== window.top) document.body.classList.add('in-iframe');
   load();
 </script>
 
